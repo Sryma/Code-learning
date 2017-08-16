@@ -70,3 +70,11 @@ button:hover{
 		display:none;
 	}
 }
+@media only screen and (max-width: 640px){
+	.container.wrapper{
+		width: 100%;
+	}
+	.container.text{
+		display:none;
+	}
+}
