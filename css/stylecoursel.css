@@ -1,0 +1,46 @@
+*{
+	background-color: whitesmoke;
+	color: black;
+}
+.box{
+	width: 100%;
+	height: 800 px;
+	/*border: 5px solid green;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px grey;
+	
+}
+.container.slide{
+	width: 60%;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+	text-align: center;
+}
+.container.text{
+	width: 40%;
+	/*border: 1px solid blue;*/
+	padding: 20px;
+
+}
+
+button{
+	width:150px;
+	height: 50px;
+	color: blue;
+	box-shadow: 10px 10px 5px grey;
+	background-color: orange;
+	border-radius: 10px;
+
+	}
+
+#glow{
+	margin-top: 100px;
+}
+.content p{
+	text-align: justify;
+	margin-top: 400px;
+
+}
