@@ -1,24 +1,31 @@
-var template = function(text) {
-  return '<p><input type="checkbox"><i class="glyphicon glyphicon-star"></i><span>' + text + '</span><i class="glyphicon glyphicon-remove"></i></p>';
+$('.list').hide(4000);
+$('.list').show(4000);
+
+function template(text) {
+  return '<p><input type="radio"><i class="fa fa-asterisk add" aria-hidden="true"></i><span>' + text + '</span><i class="fa fa-scissors remove" aria-hidden="true"></i></p>';
 };
-var main = function() {
-  $('form').submit(function(event) {
-    console.log("before")
+function main() {
+  $('form').on('submit', function(event) {
+  
     var text = $('#todo').val();
     var html = template(text);
     $('.list').append(html);
     $('#todo').val('');
-    console.log("after")
+    alert('you are added one element')
+    $('#todo').css("background-color","red");
     return false;  
   });
   
-  $('.list').on('click', '.glyphicon-star', function () {
+  $('.list').on('click', '.add', function () {
     $(this).toggleClass('active');
+
   })
   
-  $('.list').on('click', '.glyphicon-remove', function () {
-    alert($(this).parent());
+  $('.list').on('click', '.remove', function () {
     $(this).parent().remove();
+    alert('you are removed one element');
+    $('#todo').css("background-color","pink");
+
   });
   
   

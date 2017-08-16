@@ -1,5 +1,5 @@
 html, body {
-  background: url('../images/fine_home_3 - Copy.jpg') no-repeat;
+  background: url('../images/canoe_water_nature_221611.jpg') no-repeat;
   background-size: cover;
   font-family: 'Arvo', serif;
   margin: 0;
@@ -36,21 +36,21 @@ h1 {
   max-width: 520px;
 }
 
-.list p .glyphicon-star {
+.list p .add {
   cursor: pointer;
   margin: 0 10px 0 10px;
 }
 
-.list p .glyphicon-star:hover, .list p .active {
+.list p .add:hover, .list p .active {
   color: #ffcc00;
 }
 
-.list p .glyphicon-remove {
+.list p .remove {
   cursor: pointer;
   float: right;
 }
 
-.list p .glyphicon-remove:hover {
+.list p .remove:hover {
   color: #ed1c24;
 }
 
