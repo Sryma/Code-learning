@@ -62,3 +62,11 @@ button:hover{
 #slide{
 	width: 100%;
 }
+@media only screen and (max-width: 480px){
+	.container.wrapper{
+		width: 100%;
+	}
+	.container.text{
+		display:none;
+	}
+}
