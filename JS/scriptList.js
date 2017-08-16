@@ -11,7 +11,7 @@ function main() {
     var html = template(text);
     $('.list').append(html);
     $('#todo').val('');
-    alert('you are added one element')
+    alert('you are added element')
     $('#todo').css("background-color","red");
     return false;  
   });
@@ -23,7 +23,7 @@ function main() {
   
   $('.list').on('click', '.remove', function () {
     $(this).parent().remove();
-    alert('you are removed one element');
+    alert('you are removed element');
     $('#todo').css("background-color","pink");
 
   });

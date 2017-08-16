@@ -1,4 +1,4 @@
-.navbar{
+.navbar,footer{
 	
 	background-color: #ff8080;!important;
 	/*border: 1px solid blue;*/
@@ -77,10 +77,17 @@ span.blue{
 	text-align: center;
 
 }
-footer{
-	background-color: #ff9999!important;
+.wrapper h4{
+  font-weight: bold;
+}
+.wrapper h5{
+  text-transform: lowercase;
 }
 
+.end{
+  text-align: center;
+  font-weight: bold;
+}
 /*end of footer*/
 html, body {
   margin: 0;

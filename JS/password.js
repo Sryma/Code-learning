@@ -10,10 +10,7 @@
     
     if(firstName === "") {
      $(".first-name-error").text("please enter your first name ");
-     return true;
-     
-
-    }
+          }
     if(lastName === "") {
      $(".last-name-error").text("please enter your last name");
      
@@ -30,6 +27,9 @@
   
   });
 
+
+
+$('.go').hide(4000);
 $('.projects-button').on('click', function() {
         $('.projects').toggle();
         $('.projects').css("color","grey")
@@ -38,8 +38,11 @@ $('.projects-button').on('click', function() {
         
    $(this).text('projects viewed');
    $(this).css("color","yellow")
-    
-    });//here this refers to button class '.projects-button'
+   
+    });
+
+
+    //here this refers to button class '.projects-button'
 
 //$('. navigation').on('click',function(){
    // $(this).css("color","red");
