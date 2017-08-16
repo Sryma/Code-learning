@@ -9,13 +9,18 @@
     var password = $('#password').val();
     
     if(firstName === "") {
-     $(".first-name-error").text("please enter your first name");
+     $(".first-name-error").text("please enter your first name ");
+     return true;
+     
+
     }
     if(lastName === "") {
      $(".last-name-error").text("please enter your last name");
+     
     }
   if(email === "") {
      $(".email-error").text("please enter your email");
+     
     }
     if(password === "") {
      $(".password-error").text("please enter your password"); 
@@ -27,10 +32,15 @@
 
 $('.projects-button').on('click', function() {
         $('.projects').toggle();
+        $('.projects').css("color","grey")
+        $('.navigation').toggle();
+        $('.navigation').css("color","red");
+        
    $(this).text('projects viewed');
+   $(this).css("color","yellow")
     
-    });
+    });//here this refers to button class '.projects-button'
 
-$('.notification').on('click',function(){
-    $(this).toggleClass('work');
- });
+//$('. navigation').on('click',function(){
+   // $(this).css("color","red");
+ //});
