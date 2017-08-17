@@ -1,3 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo', serif;
+  font-size: 16px;
+}
+h1, h4,h5{
+  text-align: center;
+  font-weight: bold;
+padding-top: 0.2em;
+}
+/*navbar*/
 .navbar,footer{
 	
 	background-color: #ff8080;!important;
@@ -7,6 +19,7 @@
 a{
 	color: maroon!important;
 	font-weight: bold;
+  font-size: 1.2em;
 }
 /*jumbotron*/
 .jumbotron {
@@ -19,7 +32,7 @@ a{
 }
 .jumbotron h1{
   font-family: "Monoton";
-  font-size: 6em;
+  font-size: 5em;
   color: black;
   text-shadow: 2px 1px #ff8080 ;
 }
@@ -28,9 +41,7 @@ a{
   width: 70%;
   margin: 0 auto;
 }
-.container{
-	background-image: url();
-}
+
 span.blue{
 	color: orange;
 }
@@ -71,65 +82,14 @@ span.blue{
   transform: scale(1.1);
 }
 /*end of gallary*/
-/*footer*/
-.wrapper{
-	
-	text-align: center;
 
-}
-.wrapper h4{
-  font-weight: bold;
-}
-.wrapper h5{
-  text-transform: lowercase;
-}
 
-.end{
-  text-align: center;
-  font-weight: bold;
-}
-/*end of footer*/
-html, body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Montserrat', sans-serif;
-}
 section#validation 
 {
 	background-color: #b8b894!important;
 	/*border: 1px solid green;*/
 }
 
-
-/*form input.form-control { 
-  border:1px solid green;
-  border-radius:0px; 
-}
-
-
-Header 
-.header {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.header .container {
-  padding: 30px 0;
-  border-bottom: 1px solid #e5e5e5;
-}
-
-
-.main {
-  margin: 80px 0;
-
-}
-
-.main h1 {
-  font-size: 30px;
-  margin: 0 0 20px 0;
-}*/
-
- Form */
 form input.form-control { 
   border:0px;
   border-radius:0px; 
@@ -176,28 +136,22 @@ button.btn:hover {
   margin: 0;
 }
 .google{
-  
-  margin: 0;
-
+    margin: 0;
 }
 /*project*/
 .skillset {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
-
 .skill-html {
   background-color: #E55126;
 }
-
 .skill-js {
   background-color: #E5A227;
 }
 .skill-new {
-  
-background-color:  #993366;
-
+ background-color:  #993366;
 }
 .projects-button {
   padding: 0.75em 1.25em;
@@ -225,6 +179,24 @@ ul {
  
   text-shadow: 0 0 10px #ffd400;
 } 
+
+/*footer*/
+.wrapper{
+    text-align: center;
+}
+.wrapper h4{
+  font-weight: bold;
+}
+.wrapper h5{
+  text-transform: lowercase;
+}
+
+.end{
+  text-align: center;
+  font-weight: bold;
+}
+/*end of footer*/
+/*media query*/
 @media only screen and (max-width: 480px){
   /*jumbootron*/
   .jumbotron{
@@ -244,7 +216,7 @@ ul {
   display: none;
 }
 /*footer section*/
-  footer h5:nth-child(4){
+  .wrapper h5:nth-child(5){
   text-align: center;
   border-bottom: 1px solid #e6e6e6;
 }

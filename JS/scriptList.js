@@ -6,13 +6,13 @@ function template(text) {
 };
 function main() {
   $('form').on('submit', function(event) {
-  
+ 
     var text = $('#todo').val();
     var html = template(text);
-    $('.list').append(html);
-    $('#todo').val('');
+    $('.list').prepend(html);
     alert('you are added element')
-    $('#todo').css("background-color","red");
+    $('#todo').val('');// after added something it will erase the value
+    $('#todo').css("background-color","lightblue");
     return false;  
   });
   
@@ -22,7 +22,7 @@ function main() {
   })
   
   $('.list').on('click', '.remove', function () {
-    $(this).parent().remove();
+    $(this).parent().remove()
     alert('you are removed element');
     $('#todo').css("background-color","pink");
 
