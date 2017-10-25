@@ -23,10 +23,10 @@ a{
 }
 /*jumbotron*/
 .jumbotron {
-	background-image: url("../images/pexels-photo-205321.jpg");
+	background-image: url("../images/img_1.jpg") ;
 	 background-size: cover;
-	background-position: center;
-	height: 700px;
+	background-repeat: no-repeat;
+	height:40rem;
 	/*border: 8px solid blue;*/
 	position: relative;
 }
@@ -43,14 +43,36 @@ a{
 }
 
 span.blue{
-	color: orange;
+	color: white;
 }
 #banner{
 	position: absolute;
-	top: 500px;
-	left: 600px;
+	top:300px;
+	left: 0;
+ /* right:0;
+  bottom:0;*/
+ margin-left:50%;
+}
+.educationTopic{
+  position: absolute;
+  top:360px;
+  left:0;
+  right:0;
+  bottom:0;
+  height: 30rem;
+  border:5px solid white;
+  background-color: grey;
+  width:60%;
+  margin: 0 auto;
 }
 /*end of jumbotron*/
+/*2nd section*/
+#course{
+  margin-top: 200px;
+}
+.courseName i.fa{
+  color:purple!important;
+}
 /*gallary*/
  .container-fluid{
  	margin: 0 auto;

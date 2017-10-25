@@ -1,7 +1,14 @@
-var typed2 = new Typed('#display-3', {
-    strings: ['Interior design', 'We make better <strong>design</strong>'],
-    typeSpeed: 0,
-    backSpeed: 0,
-    fadeOut: true,
-    loop: true
+//slick carousel
+ $('.carousel').slick({
+    autoplay: true,
+    // arrows: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: false,
+    pauseOnFocus: false,
+    draggable: false,
+    slidesToShow: 1,
+    slidesToScroll: 1
+    // dots:true
   });
+
+

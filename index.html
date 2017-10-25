@@ -6,133 +6,263 @@
 	<title>Interior design
 	</title>
 	<!-- Bootstrap CDN -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-	<!-- Bootstrap jquery -->
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 <!-- font awesome Icon -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<!-- animate.js -->
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<!-- slick -->
+<link rel="stylesheet" type="text/css" href="css/slick.css">
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
 <!-- link style.css -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 <!-- navbar & header -->
-<section>
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded navbar-fixed-top">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  	
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0 pull-sm-right">
-	      <li class="nav-item">
-	        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="list.html">Item</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="coursel img.html"> Sample Gallary</a>
-	      </li>
-	     <li class="nav-item">
-	        <a class="nav-link" href="#contact">Contact US</a>
-	      </li>
-     </ul>
-     <div>
-      	<ul class="navbar-nav ml-auto ">
-   			<a class="nav-link" href="#gallary">Latest Gallary</a>
-   			<a class="nav-link" href="#expert">Expert</a>
+<!-- start navigation -->
+<header id="start">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar fixed-top" id="head">
+    <div class="container-fluid">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 pull-sm-left">
+            <li><a class="nav-link col" href="#" style="color: rgb(66, 244, 119)">NewM</a></li>
+        </ul>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <!-- ml auto works perfectly -->
+        <ul class="navbar-nav ml-auto "> 
+          <li class="nav-item">
+              <a class="nav-link " href="#classify" style="color: rgb(66, 244, 119)">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link col" href="#introduction">Introduction</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link col" href="#phone">Phone</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link col" href="#chef">Chef</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link col" href="#testimonial">Testimonial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link col" href="#food"> Food</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link col" href="#occasion">Occasion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link col" href="#contact">Contact</a>
+          </li>
         </ul>
     </div>
-  </div>
- </nav>
- </section>
-<!-- navbar end -->
+  </nav>
+</header>
+<!-- end of header -->
+
 <!-- start jumbotron jumbotron-fluid -->
-<section>
+<section id="wrapper">
+  <div class="jumbotron jumbotron-fluid >
+    <div class="container" id="home">
 
-<div class="jumbotron jumbotron-fluid >
-  <div class="container" id="home">
-
-    <h1 id="display-3">Interior <span class="blue">design</span></h1>
-    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-    <h1 id="title"></h1>
-    <input id="banner" class="btn btn-primary" type="reset" value="Reset">
-  </div>
-
-</div>
-
-
+      <h1 id="display-3">Education is <span class="blue">Power</span></h1>
+      <i class="fa fa-university" aria-hidden="true"></i>
+      
+      <h1 id="title"></h1>
+      <input id="banner" class="btn btn-primary" type="reset" value="Reset">
+      <div class="educationTopic">
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,  tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p><i class="fa fa-registered" aria-hidden="true"></i><i class="fa fa-book" aria-hidden="true"></i>
+      </div>
+    </div>
 </section>
-
-<!-- end of jumbotron -->
-<!-- additional content -->
-<section>
-<div class="alert alert-success" role="alert" id="#">
-  <h4 class="alert-heading">Well done!</h4>
-  <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
-  <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
-</div>
-</section>
-<!-- end of content -->
-<!--start of  gallary -->
-<section>
-<div class="container-fluid" id="gallary">
-<div class="row">
-<div class="card" col-md-4 col-xs-12 style="width: 20rem;">
-  <img class="img-fluid" alt="Responsive image" src="images/fine_home_1.jpg" >
-  <div class="card-block">
-    <h4 class="card-title">Card title</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+<!-- new section course -->
+<section id ="course" class="folder">
+  <div class= "container-fluid wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+    <div class="row">
+      <div class="col-lg-12 text-center   section-heading">
+        <h1> Introduction of course</h1>
+        <h5>We are offering lots of course</h5>
+      </div>
+    </div>
+        
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <div class="courseName">
+          <h4>CSS3 training</h4>
+          <h3><i class="fa fa-css3 fa-2x" aria-hidden="true"></i></h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
+        </div>
+      </div>
+      <div class="col-md-4 courseName text-center">
+        <h4>HTML5 training</h4>
+        <i class="fa fa-html5 fa-2x" aria-hidden="true"></i>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
+      </div>
+      <div class="col-md-4 courseName text-center">
+        <h4>Cloud computing</h4>
+        <i class="fa fa-cloud fa-2x" aria-hidden="true"></i>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
+      </div>
+      <div class="col-md-4 courseName text-center">
+        <h4>MySQL training</h4>
+        <i class="fa fa-database fa-2x" aria-hidden="true"></i>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
+      </div>
+      <div class="col-md-4 courseName text-center">
+  
+        <h4>Engling Learning</h4>
+        <i  class="fa fa-podcast fa-2x" aria-hidden="true"></i>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
     
+      </div>
+      <div class="col-md-4 courseName text-center">
+        <h4>Wordpress Learning</h4>
+        <i class="fa fa-wordpress fa-2x" aria-hidden="true"></i>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
+      </div>
+    </div>
   </div>
-</div>
-<div class="card" col-md-4 col-xs-12 style="width: 20rem;">
-  <img class="img-fluid" alt="Responsive image" src="images/fine_home_2.jpg" >
-  <div class="card-block">
-    <h4 class="card-title">Card title</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    
-  </div>
-</div>
-
-	<div class="card"  col-md-4 col-xs-12 style="width: 20rem;">
-	  <img class="img-fluid" alt="Responsive image" src="images/fine_home_3.jpg" >
-	  <div class="card-block">
-	    <h4 class="card-title">Card title</h4>
-	    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-	    
-	  </div>
-	</div>
-	</div> 
-	<!-- for row div -->
-</div> 
-<!-- for containerfluid -->
-<div class="container-fluid">
-<div class= "row">
-	<div class="card"  col-md-4 col-xs-12 style="width: 20rem;">
-	  <img  class="img-fluid" alt="Responsive image" src="images/fine_home_4.jpg" >
-	  <div class="card-block">
-	    <h4 class="card-title">Card title</h4>
-	    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-	    </div>
-	</div>
-	<div class="card"  col-md-4 col-xs-12 style="width: 20rem;">
-	  <img class="img-fluid" alt="Responsive image" src="images/fine_home_5.jpg" >
-	  <div class="card-block">
-	    <h4 class="card-title">Card title</h4>
-	    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-	    </div>
-	</div>
-	<div class="card"  col-md-4 col-xs-12 style="width: 20rem;">
-	  <img class="img-fluid" alt="Responsive image" src="images/fine_home_6.jpg" >
-	  <div class="card-block">
-	    <h4 class="card-title">Card title</h4>
-	    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-	    </div>
-	</div>
-	</div>
-</div>
 </section>
+<!-- pick your plan -->
+<section id="pricing-table-area" class="overlay-white ptb-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="section-heading text-center">
+                            <h2>PRICING TABLE</h2>
+                            <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet, consectetur adipisicing incididunt.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-duration="2s">
+                        <div class="single-price-table one text-center transition-3s">
+                            <div class="pricing-head">
+                                <div class="price-tage-wrap">
+                                    <h1 class="price-value transition-3s"><sub class="doller-sign">$</sub>20<sub class="duration"> /Month</sub></h1>
+                                </div>
+                                <h5 class="plan-title blue-grad-bg">BASIC</h5>
+                            </div>
+                            <div class="pricing-content">
+                                <ul class="table-content">
+                                    <li>100 MB Disk Space</li>
+                                    <li>2 Subdomains</li>
+                                    <li>5 Email Accounts</li>
+                                    <li>Webmail Support</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-footer transition-3s">
+                                <p class="transition-3s">(Save 20 USD)</p>
+                                <a class="btn btn-bordered-grad" href="index.html#">purchase<i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+                        <div class="single-price-table two text-center transition-3s">
+                            <div class="pricing-head">
+                                <div class="price-tage-wrap">
+                                    <h1 class="price-value transition-3s"><sub class="doller-sign">$</sub>39<sub class="duration"> /Month</sub></h1>
+                                </div>
+                                <h5 class="plan-title blue-grad-bg">STANDARD</h5>
+                            </div>
+                            <div class="pricing-content">
+                                <ul class="table-content">
+                                    <li>100 MB Disk Space</li>
+                                    <li>2 Subdomains</li>
+                                    <li>5 Email Accounts</li>
+                                    <li>Webmail Support</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-footer transition-3s">
+                                <p class="transition-3s">(Save 20 USD)</p>
+                                <a class="btn btn-bordered-grad" href="index.html#">purchase<i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                        <div class="single-price-table three text-center transition-3s">
+                            <div class="pricing-head">
+                                <div class="price-tage-wrap">
+                                    <h1 class="price-value transition-3s"><sub class="doller-sign">$</sub>79<sub class="duration"> /Month</sub></h1>
+                                </div>
+                                <h5 class="plan-title blue-grad-bg">PREMIUM</h5>
+                            </div>
+                            <div class="pricing-content">
+                                <ul class="table-content">
+                                    <li>100 MB Disk Space</li>
+                                    <li>2 Subdomains</li>
+                                    <li>5 Email Accounts</li>
+                                    <li>Webmail Support</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-footer transition-3s">
+                                <p class="transition-3s">(Save 20 USD)</p>
+                                <a class="btn btn-bordered-grad" href="index.html#">purchase<i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
+                        <div class="single-price-table four text-center transition-3s">
+                            <div class="pricing-head">
+                                <div class="price-tage-wrap">
+                                    <h1 class="price-value transition-3s"><sub class="doller-sign">$</sub>199<sub class="duration"> /Year</sub></h1>
+                                </div>
+                                <h5 class="plan-title blue-grad-bg">UNLIMITED</h5>
+                            </div>
+                            <div class="pricing-content">
+                                <ul class="table-content">
+                                    <li>100 MB Disk Space</li>
+                                    <li>2 Subdomains</li>
+                                    <li>5 Email Accounts</li>
+                                    <li>Webmail Support</li>
+                                </ul>
+                            </div>
+                            <div class="pricing-footer transition-3s">
+                                <p class="transition-3s">(Save 20 USD)</p>
+                                <a class="btn btn-bordered-grad" href="index.html#">purchase<i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- end of plan -->
+<section id ="statistics" class="folder">
+  <div class="container-fluid wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+    <div class="row">
+      <div class="col-lg-12 text-center   section-heading">
+        <h1> statistics</h1>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 text-center">
+          <h4>Our registered</h4>
+          <h3><i class="fa fa-registered" aria-hidden="true"></i></h3>
+          <p>1200</p>
+          
+        </div>
+        <div class="col-md-3 text-center">
+          <h4>Our graduate</h4>
+          <h3><i class="fa fa-graduation-cap" aria-hidden="true"></i></h3>
+          <p>1200</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <h4>Our teacher</h4>
+          <h3><i class="fa fa-users" aria-hidden="true"></i></h3>
+          <p>1200</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <h4>Our coder</h4>
+          <h3><i class="fa fa-code" aria-hidden="true"></i></h3>
+          <p>1200</p>
+        </div>
+      </div>
+    </div>
+ </section>
 <!-- end of gallary -->
 <!-- start of contact -->
 <section id="validation">
@@ -164,7 +294,7 @@
                <button type="submit" class="btn">Create account</button>
         </form>
               
-            </form>        
+                
         </div>
         <div class="col-md-8 google">
         <div id="map">
@@ -172,10 +302,9 @@
 		</div>
       </div>
     </div>
-
-	</div>
 </div>
 </section>
+	
 
 <section>
 
@@ -281,10 +410,14 @@
 <!-- ajax-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <!-- bootstrap.min.js -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-<!-- typed.min js -->
-<script type="text/javascript" src="JS/typed.min.js"></script>
-
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<!-- jQuery -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
 <!-- main.js -->
 <script type="text/javascript" src="JS/main.js"></script>
 <!-- password.js -->
