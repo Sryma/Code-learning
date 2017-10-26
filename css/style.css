@@ -3,6 +3,7 @@ html, body {
   padding: 0;
   font-family: 'Arvo', serif;
   font-size: 16px;
+
 }
 h1, h4,h5{
   text-align: center;
@@ -14,7 +15,6 @@ h1, h4,h5{
   background-color: rgb(173, 235, 235)!important;
 	}
 a{
-	/*color: maroon!important;*/
 	font-weight: bold;
   font-size: 1.2em;
 }
@@ -34,23 +34,21 @@ a{
   text-shadow: 2px 1px #ff8080*/ ;
 }
 
-.jumbotron p{
-  width: 70%;
-  margin: 0 auto;
+
+h1#display-3{
+ 
+  padding-top:10rem;
 }
 
-span.blue{
-	color: white;
-}
 #banner{
 	position: absolute;
-	top:300px;
+	top:30rem;
 	left: 0;
  /* right:0;
   bottom:0;*/
- margin-left:50%;
+ margin-left:48%;
 }
-.educationTopic{
+/*.educationTopic{
   position: absolute;
   top:360px;
   left:0;
@@ -61,12 +59,10 @@ span.blue{
  background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(0, 153, 153) 0%, rgb(51, 255, 255)100%) repeat scroll 0 0;
   width:50%;
   margin: 0 auto;
-}
+}*/
 /*end of jumbotron*/
 /*2nd section*/
-#course{
-  margin-top: 200px;
-}
+
 .courseName i.fa{
   color:rgb(51, 204, 204)!important;
 }
@@ -96,7 +92,10 @@ span.blue{
     text-transform: capitalize;
 }
 .plan-title {
-    color: #fff;
+   /* color: #fff;*/
+   color:blue;
+   background: rgb(51, 153, 255);
+   border: 1px solid grey;
     font-weight: 700;
     letter-spacing: 5px;
     margin: 0;
@@ -176,38 +175,43 @@ span.blue{
     color: #fff;
 }
 /*end of pricing plan*/
-/*gallary*/
- .container-fluid{
- 	margin: 0 auto;
- 	/*border: 1px solid green;*/
-  padding: 0;
- }
- .row{
- /*	border: 1px solid orange;*/
- 	margin: 0 auto;
- 	padding-top: 0.5em;
- }
- .card{
- 	width:30%;
- 	height: auto;
- 	padding: 0.75em;
- 	margin: 0 auto;
- 	border-radius: 1em;
- }
- .card img{
-  opacity: 0.7;
-  max-width: 100%;
-  height: auto;
-  transition: .5s transform,
-              .5s opacity;
+/*start of statistics*/
+.circle{
+  width:4rem;
+  height:4rem;
+  border-radius: 50%;
+  border: 1px solid blue;
+  /*text-align: center;*/
+  margin: 0 auto;
+  padding-top:5%;
 }
-
-.card img:hover{
-  opacity: 1;
-  transform: scale(1.1);
+i.fa.circle{
+  padding-top: 4%;
+  border: 1px solid pink;
 }
-/*end of gallary*/
-
+.folder{
+  padding: 5% 0 5% 0;
+}
+.section-heading h1{
+  color: black;
+  font-size: 2rem;
+  padding-bottom: 2%;
+  text-transform: uppercase;
+}
+.counter:hover,.courseName i.fa:hover{
+  background:rgba(0, 0, 0, 0) linear-gradient(to right, rgb(0, 153, 153) 0%, rgb(51, 255, 255)100%) repeat scroll 0 0; 
+  transition: all 1s ease;
+}
+/*end of statistics*/
+ /*start of events*/
+ .grad img{
+  width:100%;
+ }
+ .grad h5{
+  padding-top: 5%;
+  color:  #4d4d4d;
+ }
+ /*end of events*/
 
 section#validation 
 {
@@ -323,12 +327,25 @@ ul {
 /*end of footer*/
 /*media query*/
 @media only screen and (max-width: 480px){
+  body,html{
+    font-size: 16px;
+  }
   /*jumbootron*/
   .jumbotron{
-    background-size: 100%;
-    background-repeat: no-repeat;
+    width: 100%;
+    height: 25rem;
     border: 2px solid green;
+    margin-top: 4rem;
   }
+  .display-3{
+    font-size: 2rem;
+  }
+  .section-heading h1{
+    font-size: 1.5rem;
+  }
+   .sub-heading-2 h4{
+  font-size: 1.2rem;
+   }
   .alert{
     margin-top: 0;
   }
