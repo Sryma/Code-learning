@@ -24,7 +24,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light navbar fixed-top" id="head">
     <div class="container-fluid">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 pull-sm-left">
-            <li><a class="nav-link col" href="#" style="color: rgb(66, 244, 119)">NewM</a></li>
+            <li><a class="nav-link col" href="#" style="color: rgb(66, 244, 119)">New<em>M</em></a></li>
         </ul>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -40,19 +40,19 @@
             <a class="nav-link col" href="#introduction">Introduction</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link col" href="#phone">Phone</a>
+            <a class="nav-link col" href="#phone">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link col" href="#chef">Chef</a>
+            <a class="nav-link col" href="#chef">Statictis</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link col" href="#testimonial">Testimonial</a>
+            <a class="nav-link col" href="#testimonial">Events</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link col" href="#food"> Food</a>
+            <a class="nav-link col" href="#food">Testimonial</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link col" href="#occasion">Occasion</a>
+            <a class="nav-link col" href="#occasion">Contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link col" href="#contact">Contact</a>
@@ -69,7 +69,7 @@
     <div class="container" id="home">
 
       <h1 id="display-3">Education is <span class="blue">Power</span></h1>
-      <i class="fa fa-university" aria-hidden="true"></i>
+      <h4><i class="fa fa-university fa-5x" aria-hidden="true"></i></h4>
       
       <h1 id="title"></h1>
       <input id="banner" class="btn btn-primary" type="reset" value="Reset">
@@ -92,7 +92,7 @@
       <div class="col-md-4 text-center">
         <div class="courseName">
           <h4>CSS3 training</h4>
-          <h3><i class="fa fa-css3 fa-2x" aria-hidden="true"></i></h3>
+          <i class="fa fa-css3 fa-2x" aria-hidden="true"></i>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. </p>
         </div>
       </div>
@@ -241,29 +241,33 @@
     <div class="row">
         <div class="col-md-3 text-center">
           <h4>Our registered</h4>
-          <h3><i class="fa fa-registered" aria-hidden="true"></i></h3>
-          <p>1200</p>
+          <h3><i style="color:rgb(255, 153, 204)" class="fa fa-registered" aria-hidden="true"></i></h3>
+          <p class="counter">160,00</p>
           
         </div>
         <div class="col-md-3 text-center">
           <h4>Our graduate</h4>
-          <h3><i class="fa fa-graduation-cap" aria-hidden="true"></i></h3>
-          <p>1200</p>
+          <h3><i style="color:rgb(102, 179, 255)" class="fa fa-graduation-cap" aria-hidden="true"></i></h3>
+          <p class="counter">10,00</p>
         </div>
         <div class="col-md-3 text-center">
           <h4>Our teacher</h4>
-          <h3><i class="fa fa-users" aria-hidden="true"></i></h3>
-          <p>1200</p>
+          <h3><i style="color:rgb(255, 128, 128)" class="fa fa-users" aria-hidden="true"></i></h3>
+          <p class="counter">1000</p>
         </div>
         <div class="col-md-3 text-center">
           <h4>Our coder</h4>
-          <h3><i class="fa fa-code" aria-hidden="true"></i></h3>
-          <p>1200</p>
+          <h3><i style="color:rgb(153, 255, 153)" class="fa fa-code" aria-hidden="true"></i></h3>
+          <p class="counter">12,000</p>
         </div>
       </div>
     </div>
  </section>
-<!-- end of gallary -->
+<!-- end of statistics -->
+<!-- testimonial -->
+
+
+<!-- end of testimonial -->
 <!-- start of contact -->
 <section id="validation">
 <div class="container-fluid " id="contact">
@@ -354,16 +358,15 @@
   </div>
 </section>
 <!-- end of contact -->
-
 <footer>
 	<div class="container-fluid" id="footer">
 		<div class="row">
 			<div class="wrapper col-md-4">
 			<h4>Resources</h4>
-           <h5><i class="fa fa-dropbox" aria-hidden="true"></i>Dropbox</h5>
-           <h5><i class="fa fa-twitter-square" aria-hidden="true"></i>Twitter</h5>
-            <h5><i class="fa fa-facebook-official" aria-hidden="true"></i>Facebook</h5>
-            <h5><i class="fa fa-linkedin-square" aria-hidden="true"></i>Linkedin</h5>
+        <p><a href="#">  <i class="fa fa-dropbox" aria-hidden="true">&nbsp;Dropbox</i></a></p>
+           <p><a href="#"><i class="fa fa-twitter-square" aria-hidden="true">&nbsp;Twitter</i></a></p>
+            <p><a><i class="fa fa-facebook-official" aria-hidden="true">&nbsp;Facebook</i></a></p>
+            <p><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true">&nbsp;Linkedin</i></a></p>
       
 			</div>
 		
@@ -407,8 +410,8 @@
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXeZvzhaiU6AOEYeTanrYcpxKrq8H4TwQ&callback=initMap"
     async defer></script>
-<!-- ajax-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <!-- ajax -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script> --> 
 <!-- bootstrap.min.js -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
@@ -418,11 +421,15 @@
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
+ <!-- waypoints.min.js needed -->
+   <script type="text/javascript" src="JS/jquery.waypoints.min.js"></script>
+    <!-- counterup.min.js -->
+  <script type="text/javascript" src="JS/jquery.counterup.min.js"></script>
+  
 <!-- main.js -->
 <script type="text/javascript" src="JS/main.js"></script>
 <!-- password.js -->
 <script type="text/javascript" src="JS/password.js"></script>
-<!-- projects.js -->
-<script type="text/javascript" src="JS/projects.js"></script>
+
 </body>
 </html>
