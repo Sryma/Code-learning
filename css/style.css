@@ -10,7 +10,14 @@ h1, h4,h5{
   font-weight: bold;
 
 }
-/*navbar*/
+
+p{
+color:#4c5462;
+}
+/* =====================================
+1. navbar start
+===================================== */
+
 .navbar,footer{
   background-color: rgb(173, 235, 235)!important;
 	}
@@ -18,23 +25,22 @@ a{
 	font-weight: bold;
   font-size: 1.2em;
 }
+/* =====================================
+2. Start of Jumbotron
+===================================== */
+
 /*jumbotron*/
 .jumbotron {
 	background-image: url("../images/img_1.jpg") ;
 	 background-size: cover;
 	background-repeat: no-repeat;
 	height:40rem;
-	/*border: 8px solid blue;*/
 	position: relative;
 }
 .jumbotron h1{
   font-family: "Monoton";
   font-size: 5em;
-  /*color: black;
-  text-shadow: 2px 1px #ff8080*/ ;
-}
-
-
+  }
 h1#display-3{
  
   padding-top:10rem;
@@ -48,26 +54,14 @@ h1#display-3{
   bottom:0;*/
  margin-left:48%;
 }
-/*.educationTopic{
-  position: absolute;
-  top:360px;
-  left:0;
-  right:0;
-  bottom:0;
-  height: 25rem;
-  border:5px solid white;
- background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(0, 153, 153) 0%, rgb(51, 255, 255)100%) repeat scroll 0 0;
-  width:50%;
-  margin: 0 auto;
-}*/
-/*end of jumbotron*/
-/*2nd section*/
-
+/* =====================================
+3. Start of course
+===================================== */
 .courseName i.fa{
   color:rgb(51, 204, 204)!important;
 }
 /* =====================================
-13. PRICING TABLE AREA
+4. PRICING TABLE AREA
 ===================================== */
 
 #pricing-table-area {
@@ -111,6 +105,7 @@ h1#display-3{
 .table-content li {
     color: #4c5462;
     margin-bottom: 15px;
+    list-style: none;
 }
 .table-content li:last-child {
     margin-bottom: 0;
@@ -175,7 +170,10 @@ h1#display-3{
     color: #fff;
 }
 /*end of pricing plan*/
-/*start of statistics*/
+/* =====================================
+5. Start of statistics
+===================================== */
+
 .circle{
   width:4rem;
   height:4rem;
@@ -203,7 +201,10 @@ i.fa.circle{
   transition: all 1s ease;
 }
 /*end of statistics*/
- /*start of events*/
+/* =====================================
+6. Start of events
+===================================== */
+
  .grad img{
   width:100%;
  }
@@ -212,11 +213,11 @@ i.fa.circle{
   color:  #4d4d4d;
  }
  /*end of events*/
-
-section#validation 
-{
-	background-color: #b8b894!important;
-	/*border: 1px solid green;*/
+/* =====================================
+7. form validation(left side)
+===================================== */
+#validation{
+  background-color: rgb(210, 208, 242);
 }
 
 form input.form-control { 
@@ -254,9 +255,10 @@ button.btn:hover {
   color: #fff;
   transition: background 2s, color 1s;
 }
+/* =====================================
+7. right side of Google map
+===================================== */
 
-/* Footer */
-/* Google map */
 #map{
 	width:100%;
 	height:600px;
@@ -267,49 +269,10 @@ button.btn:hover {
 .google{
     margin: 0;
 }
-/*project*/
-.skillset {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-.skill-html {
-  background-color: #E55126;
-}
-.skill-js {
-  background-color: #E5A227;
-}
-.skill-new {
- background-color:  #993366;
-}
-.projects-button {
-  padding: 0.75em 1.25em;
-  background-color: whitesmoke;
-  opacity: 0.9;
-  width: 10em;
-  color: black;
-}
+/* =====================================
+8. start of footer
+===================================== */
 
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-.projects {
-  margin: 1em 0;
-}
-
-.active {
-  background-color: #333333;
-  color: whitesmoke;
-}
-.navigation.work { 
-  color: #ffd400;
- 
-  text-shadow: 0 0 10px #ffd400;
-} 
-
-/*footer*/
 .wrapper{
     text-align: center;
 }
@@ -325,7 +288,10 @@ ul {
   font-weight: bold;
 }
 /*end of footer*/
-/*media query*/
+/* =====================================
+9. start of media query
+===================================== */
+
 @media only screen and (max-width: 480px){
   body,html{
     font-size: 16px;
@@ -358,13 +324,47 @@ ul {
   font-size: 3em;
   
 }
-.jumbotron p{
-  display: none;
-}
+
 /*footer section*/
   .wrapper h5:nth-child(5){
   text-align: center;
   border-bottom: 1px solid #e6e6e6;
 }
 
+}
+@media only screen and (min-width:481px) and (max-width: 768px){
+  body,html{
+    font-size: 20px;
+  }
+  /*jumbootron*/
+  .jumbotron{
+    width: 100%;
+    height: 35rem;
+     }
+  #banner{
+    top:25rem;
+   right:10%;
+  }
+  .display-3{
+    font-size: 2rem;
+  }
+  .section-heading h1{
+    font-size: 1.4rem;
+  }
+   .sub-heading-2 h4{
+  font-size: 1.2rem;
+   }
+  .alert{
+    margin-top: 0;
+  }
+  .jumbotron h1{
+  
+  font-size: 2.5em;
+  
+}
+.plan-title blue-grad-bg{
+  font-size: 1rem;
+}
+
+ 
 }
