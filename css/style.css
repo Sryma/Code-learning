@@ -1,14 +1,16 @@
+*{
+  box-sizing: border-box;
+}
 html, body {
   margin: 0;
   padding: 0;
   font-family: 'Arvo', serif;
-  font-size: 16px;
+  font-size: 20px;
 
 }
 h1, h4,h5{
   text-align: center;
   font-weight: bold;
-
 }
 
 p{
@@ -34,25 +36,23 @@ a{
 	background-image: url("../images/img_1.jpg") ;
 	 background-size: cover;
 	background-repeat: no-repeat;
-	height:40rem;
+	height:35rem;
 	position: relative;
 }
-.jumbotron h1{
-  font-family: "Monoton";
-  font-size: 5em;
-  }
-h1#display-3{
- 
-  padding-top:10rem;
+ .container h1{
+   padding-top:5rem;
+   color:white;
+   font-size: 5rem;
 }
-
+.container h4 i.fa{
+  padding-top: 1rem;
+  
+}
 #banner{
 	position: absolute;
-	top:30rem;
-	left: 0;
- /* right:0;
-  bottom:0;*/
- margin-left:48%;
+	top:70%;
+	left:48%;
+ 
 }
 /* =====================================
 3. Start of course
@@ -91,7 +91,7 @@ h1#display-3{
    background: rgb(51, 153, 255);
    border: 1px solid grey;
     font-weight: 700;
-    letter-spacing: 5px;
+    /*letter-spacing: 5px;*/
     margin: 0;
     padding: 20px 0;
 }
@@ -299,17 +299,20 @@ button.btn:hover {
   /*jumbootron*/
   .jumbotron{
     width: 100%;
-    height: 30rem;
-    border: 2px solid green;
+    height: 25rem;
     margin-top: 4rem;
   }
   #banner{
-    top:25rem;
-   right:10%;
+    top:85%;
+   left:45%;
   }
-  .display-3{
-    font-size: 2rem;
-  }
+  .container h1{
+    font-size: 3rem;
+     }
+  .container h4 i.fa{
+  padding-top: 1rem;
+  
+}
   .section-heading h1{
     font-size: 1.5rem;
   }
@@ -319,12 +322,7 @@ button.btn:hover {
   .alert{
     margin-top: 0;
   }
-  .jumbotron h1{
-  
-  font-size: 3em;
-  
-}
-
+ 
 /*footer section*/
   .wrapper h5:nth-child(5){
   text-align: center;
@@ -342,12 +340,10 @@ button.btn:hover {
     height: 35rem;
      }
   #banner{
-    top:25rem;
-   right:10%;
+    top:85%;
+ left:45%;
   }
-  .display-3{
-    font-size: 2rem;
-  }
+  
   .section-heading h1{
     font-size: 1.4rem;
   }
@@ -357,14 +353,6 @@ button.btn:hover {
   .alert{
     margin-top: 0;
   }
-  .jumbotron h1{
   
-  font-size: 2.5em;
-  
-}
-.plan-title blue-grad-bg{
-  font-size: 1rem;
-}
-
  
 }
