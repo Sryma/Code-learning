@@ -20,7 +20,7 @@ color:#4c5462;
 1. navbar start
 ===================================== */
 
-.navbar,footer{
+.navbar{
   background-color: rgb(173, 235, 235)!important;
 	}
 a{
@@ -299,20 +299,18 @@ button.btn:hover {
 /* =====================================
 9. start of footer
 ===================================== */
+footer{
+  background-color:  #e6f7ff;
+  color: #0077b3;
+}
 
 .wrapper{
     text-align: center;
 }
-.wrapper h4{
-  font-weight: bold;
-}
-.wrapper h5{
-  text-transform: lowercase;
-}
 
 .end{
   text-align: center;
-  font-weight: bold;
+
 }
 /*end of footer*/
 /* =====================================
