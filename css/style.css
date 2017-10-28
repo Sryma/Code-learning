@@ -312,6 +312,9 @@ footer{
   text-align: center;
 
 }
+.last p{
+  border-right: 1px solid grey;
+}
 /*end of footer*/
 /* =====================================
 9. start of media query
