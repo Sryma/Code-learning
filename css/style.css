@@ -303,11 +303,12 @@ button.btn:hover {
     margin-top: 4rem;
   }
   #banner{
-    top:85%;
+    top:80%;
    left:45%;
   }
   .container h1{
     font-size: 3rem;
+    padding-top: 10%;
      }
   .container h4 i.fa{
   padding-top: 1rem;
