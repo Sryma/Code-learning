@@ -14,6 +14,10 @@
 <!-- slick -->
 <link rel="stylesheet" type="text/css" href="css/slick.css">
 <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+<!-- component -->
+<link rel="stylesheet" type="text/css" href="css/component.css">
+<!-- default -->
+<link rel="stylesheet" type="text/css" href="css/default.css">
 <!-- link style.css -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -66,7 +70,13 @@
     <div class="container" id="home">
       <h1>Education is Power</h1>
       <h4><i class="fa fa-university fa-4x" aria-hidden="true"></i></h4>
-       <input id="banner" class="btn btn-primary" type="reset" value="Reset">
+    
+		<div class="hi-icon-wrap hi-icon-effect-1 hi-icon-effect-1a" id="set-1">
+				
+			<a href="#set-1" class="hi-icon hi-icon-locked">Security</a>
+		</div>
+		
+		
     </div>
 </section>
 <!-- new section course -->
@@ -400,16 +410,16 @@
   		<div class="wrapper col-md-4">
   			<h4> Community Guidelines </h4>
   			 <h5>Sales Solutions</h5>
-          <h5>Send feedback </h5>
-          <h5>Mobile</h5>
-          <h5>Small Business</h5>
+          	<h5>Send feedback </h5>
+          	<h5>Mobile</h5>
+          	<h5>Small Business</h5>
       </div>
   		<div class="wrapper col-md-4">
   			<h4>Process</h4>
   			 <h5>Talent Solutions</h5>    
-         <h5>Careers</h5>  
-         <h5>Marketing Solutions</h5>  
-         <h5>Privacy &amp; Terms </h5> 
+         	<h5>Careers</h5>  
+         	<h5>Marketing Solutions</h5>  
+         	<h5>Privacy &amp; Terms </h5> 
   		</div>
 		</div>
 		<div class="row ">
@@ -462,7 +472,10 @@
                     )
                     wow.init();
               </script>
-  
+  <!--modernizr.js  -->
+  <script type="text/javascript" src="JS/modernizr.custom.js"></script>
+  <!--component.js  -->
+  <script type="text/javascript" src="JS/component.js"></script>
 <!-- main.js -->
 <script type="text/javascript" src="JS/main.js"></script>
 <script type="text/javascript">
@@ -475,6 +488,17 @@
       }, 500);
   });
 
+  </script>
+  <script type="text/javascript">
+  $(".hi-icon-wrap").click(function(e) {
+    e.preventDefault();
+    var section = $(this).attr('#set-1');
+    console.log(section);
+      $('html, body').animate({
+          scrollTop: 400
+      }, 500);
+  });
+  
   </script>
   <script type="text/javascript">
     $(function() {

@@ -302,8 +302,14 @@ button.btn:hover {
 footer{
   background-color:  #e6f7ff;
   color: #0077b3;
+  font-size: 0.8rem;
 }
-
+footer h4{
+  font-size: 1.2rem;
+}
+footer h5{
+  font-size: 1rem;
+}
 .wrapper{
     text-align: center;
 }
@@ -311,9 +317,6 @@ footer{
 .end{
   text-align: center;
 
-}
-.last p{
-  border-right: 1px solid grey;
 }
 /*end of footer*/
 /* =====================================
